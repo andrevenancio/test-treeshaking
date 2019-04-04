@@ -1,0 +1,19 @@
+{
+	"name": "webpack",
+	"scripts": {
+		"webpack:dev": "webpack -d --mode development",
+		"webpack:build": "webpack -p --mode production",
+		"clear": "rimraf dist",
+		"start": "npm run webpack:dev",
+		"build": "npm run clear && npm run webpack:build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"webpack": "^4.29.6",
+		"webpack-cli": "^3.3.0",
+		"rimraf": "^2.6.3"
+	},
+	"dependencies": {
+		"three": "^0.103.0"
+	}
+}
