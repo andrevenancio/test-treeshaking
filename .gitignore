@@ -1,6 +1,9 @@
 parcel/node_modules
 parcel/dist
+parcel/.cache
+
 rollup/node_modules
 rollup/dist
+
 webpack/node_modules
 webpack/dist
